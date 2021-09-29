@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+/* Responsive styles
+-------------------------------------------------------------- */
+
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+/* With side menu
+@media (min-width: 1280px) and (max-width: 1365px) {
+*/
+/* Without side menu */
+@media (min-width: 960px) and (max-width: 1135px) {
+	body { font-size: 14px; line-height: 26px; }
+	h1	 { font-size: 42px; line-height: 50px; }
+	h2  	 { font-size: 39px; line-height: 47px; }
+	h3 	 { font-size: 27px; line-height: 36px; }
+	h4 	 { font-size: 21px; line-height: 28px; }
+	h5  	 { font-size: 17px; line-height: 25px; }
+	h6 	 { font-size: 12px }
+	
+	.post_info { font-size: 12px }
+	
+	h1.sc_title { font-size: 42px !important; line-height: 50px !important; }
+	h2.sc_title { font-size: 39px !important; line-height: 47px !important; }
+	h3.sc_title { font-size: 27px !important; line-height: 36px !important; }
+	
+	/*h3*/
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr, #buddypress div#item-header h2, .tribe-events-list .type-tribe_events h2, .woocommerce div.product .product_title, .woocommerce .checkout h3, .woocommerce-page .checkout h3, .woocommerce-account h2, .woocommerce-account h4 { 
+		font-size: 27px; 
+		line-height: 36px; 
+	}
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr{
+		line-height: 40px;
+	}
+	
+	/*h4*/
+	.sc_call_to_action_style_2  .sc_call_to_action_title, blockquote, .post_item.post_item_excerpt.post_format_link .post_featured p, .post_item.post_format_link .post_content p, .post_item.post_item_excerpt.post_format_status .post_featured p, .post_item.post_format_status .post_content p, .post_format_aside.post_item_single.post_item_excerpt .post_content p, .post_format_aside.post_item_excerpt .post_featured, .post_item_404 .page_subtitle, .woocommerce ul.products li.product .price { 
+		font-size: 21px; 
+		line-height: 28px; 
+	}
+	/*h5*/
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_author_name, .sc_blogger_descr.sc_item_descr, .ih-item.square .info .post_title a, .sc_form_descr.sc_item_descr, .sc_services_descr.sc_item_descr, .sc_team_descr.sc_item_descr, .sc_any_shortcode_descr.sc_item_descr { 
+		font-size: 17px; 
+		line-height: 26px; 
+	}
+	
+	/*h6*/
+	.sc_form .sc_form_address_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_price_block .sc_price_block_title, .sc_skills_counter .sc_skills_item .sc_skills_info, .sc_skills_bar .sc_skills_info .sc_skills_label, .sc_skills_bar.sc_skills_horizontal .sc_skills_total, .sc_socials.sc_socials_size_small .social_icons span, .sc_table table tr:first-child th, .sc_tabs .sc_tabs_titles li a, #buddypress div.item-list-tabs ul li a, #buddypress div.item-list-tabs ul li span, #buddypress span.activity, #buddypress span.activity, #buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header, #buddypress .field-visibility-settings, #buddypress .field-visibility-settings-notoggle, #buddypress .field-visibility-settings-toggle, #buddypress div.activity-comments div.acomment-meta, #buddypress table.notifications tr th, #tribe-bar-form label, .tribe-events-event-meta address.tribe-events-address, .tribe-events-list .tribe-events-venue-details, .woocommerce div.product form.cart .variations label, .woocommerce .product_meta span, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce .star-rating, .woocommerce-page .star-rating, .woocommerce.widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .quantity, .woocommerce-page.widget_shopping_cart .quantity, .woocommerce-page .widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .total .amount, .woocommerce.widget_shopping_cart .total .amount, .woocommerce .widget_price_filter .price_label, .woocommerce table.shop_table tr:first-child th, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot th, .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2, .woocommerce table.cart thead th, .woocommerce #content table.cart thead th, .woocommerce-page table.cart thead th, .woocommerce-page #content table.cart thead th, .photostack figcaption h2, .top_panel_image .breadcrumbs, .widget_area .post_item .post_info, .isotope_filters a, .copyright_outer_text, .widget_area .widget_calendar .weekday, .widget_area .widget_product_tag_cloud a, .widget_area .widget_tag_cloud a, #toc .toc_title, .woocommerce ul.products li.product h2 {
+		font-size: 12px;
+	}
+	
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_content,
+	.sc_price_block .sc_price_block_description{
+		font-size: 14px;
+	}
+	/*button*/
+	input[type="submit"], input[type="button"], button, .sc_button {
+		font-size: 13px;
+	}
+	/*404*/
+	.post_item_404 .page_title {
+		font-size: 200px;
+	}
+	/*list*/
+	.sc_list li {
+		line-height: 28px !important;
+	}
+}
+
+
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+/* With side menu
+@media (min-width: 768px) and (max-width: 1279px) {
+*/
+/* Without side menu */
+@media (min-width: 768px) and (max-width: 959px) {
+
+	body { font-size: 14px; line-height: 26px; } 
+	h1	 { font-size: 40px; line-height: 47px; } 
+	h2  	 { font-size: 37px; line-height: 44px; } 
+	h3 	 { font-size: 25px; line-height: 33px; } 
+	h4 	 { font-size: 21px; line-height: 28px; }
+	h5  	 { font-size: 17px; line-height: 25px; }
+	h6 	 { font-size: 12px }
+	
+	.post_info { font-size: 12px }
+	
+	h1.sc_title { font-size: 40px !important; line-height: 47px !important; }
+	h2.sc_title { font-size: 37px !important; line-height: 44px !important; }
+	h3.sc_title { font-size: 25px !important; line-height: 33px !important; }
+	
+	/*h3*/
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr, #buddypress div#item-header h2, .tribe-events-list .type-tribe_events h2, .woocommerce div.product .product_title, .woocommerce .checkout h3, .woocommerce-page .checkout h3, .woocommerce-account h2, .woocommerce-account h4 { 
+		font-size: 25px; 
+		line-height: 33px; 
+	}
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr{
+		line-height: 39px;
+	}
+	
+	/*h4*/
+	.sc_call_to_action_style_2  .sc_call_to_action_title, blockquote, .post_item.post_item_excerpt.post_format_link .post_featured p, .post_item.post_format_link .post_content p, .post_item.post_item_excerpt.post_format_status .post_featured p, .post_item.post_format_status .post_content p, .post_format_aside.post_item_single.post_item_excerpt .post_content p, .post_format_aside.post_item_excerpt .post_featured, .post_item_404 .page_subtitle, .woocommerce ul.products li.product .price { 
+		font-size: 21px; 
+		line-height: 28px; 
+	}
+	/*h5*/
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_author_name, .sc_blogger_descr.sc_item_descr, .ih-item.square .info .post_title a, .sc_form_descr.sc_item_descr, .sc_services_descr.sc_item_descr, .sc_team_descr.sc_item_descr, .sc_any_shortcode_descr.sc_item_descr { 
+		font-size: 17px; 
+		line-height: 26px; 
+	}
+	
+	/*h6*/
+	.sc_form .sc_form_address_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_price_block .sc_price_block_title, .sc_skills_counter .sc_skills_item .sc_skills_info, .sc_skills_bar .sc_skills_info .sc_skills_label, .sc_skills_bar.sc_skills_horizontal .sc_skills_total, .sc_socials.sc_socials_size_small .social_icons span, .sc_table table tr:first-child th, .sc_tabs .sc_tabs_titles li a, #buddypress div.item-list-tabs ul li a, #buddypress div.item-list-tabs ul li span, #buddypress span.activity, #buddypress span.activity, #buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header, #buddypress .field-visibility-settings, #buddypress .field-visibility-settings-notoggle, #buddypress .field-visibility-settings-toggle, #buddypress div.activity-comments div.acomment-meta, #buddypress table.notifications tr th, #tribe-bar-form label, .tribe-events-event-meta address.tribe-events-address, .tribe-events-list .tribe-events-venue-details, .woocommerce div.product form.cart .variations label, .woocommerce .product_meta span, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce .star-rating, .woocommerce-page .star-rating, .woocommerce.widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .quantity, .woocommerce-page.widget_shopping_cart .quantity, .woocommerce-page .widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .total .amount, .woocommerce.widget_shopping_cart .total .amount, .woocommerce .widget_price_filter .price_label, .woocommerce table.shop_table tr:first-child th, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot th, .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2, .woocommerce table.cart thead th, .woocommerce #content table.cart thead th, .woocommerce-page table.cart thead th, .woocommerce-page #content table.cart thead th, .photostack figcaption h2, .top_panel_image .breadcrumbs, .widget_area .post_item .post_info, .isotope_filters a, .copyright_outer_text, .widget_area .widget_calendar .weekday, .widget_area .widget_product_tag_cloud a, .widget_area .widget_tag_cloud a, #toc .toc_title, .woocommerce ul.products li.product h2 {
+		font-size: 12px;
+	}
+	
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_content,
+	.sc_price_block .sc_price_block_description{
+		font-size: 14px;
+	}
+	
+	/*button*/
+	input[type="submit"], input[type="button"], button, .sc_button {
+		font-size: 13px;
+	}
+	
+	/*list*/
+	.sc_list li {
+		line-height: 28px !important;
+	}
+	/*404*/
+	.post_item_404 .page_title {
+		font-size: 200px;
+	}
+	/*price block*/
+	.sc_price_block .sc_price_block_money {
+		font-size: 35px;
+	}
+}
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 480px) and (max-width: 767px) {
+	body { font-size: 14px; line-height: 26px; } 
+	h1	 { font-size: 38px; line-height: 45px; } 
+	h2  	 { font-size: 35px; line-height: 42px; } 
+	h3 	 { font-size: 23px; line-height: 31px; } 
+	h4 	 { font-size: 21px; line-height: 28px; }
+	h5  	 { font-size: 17px; line-height: 25px; }
+	h6 	 { font-size: 12px }
+	
+	.post_info { font-size: 12px }
+	
+	h1.sc_title { font-size: 38px !important; line-height: 45px !important; }
+	h2.sc_title { font-size: 35px !important; line-height: 42px !important; }
+	h3.sc_title { font-size: 23px !important; line-height: 31px !important; }
+	
+	/*h3*/
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr, #buddypress div#item-header h2, .tribe-events-list .type-tribe_events h2, .woocommerce div.product .product_title, .woocommerce .checkout h3, .woocommerce-page .checkout h3, .woocommerce-account h2, .woocommerce-account h4 { 
+		font-size: 23px; 
+		line-height: 31px; 
+	}
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr{
+		line-height: 36px;
+	}
+	
+	/*h4*/
+	.sc_call_to_action_style_2  .sc_call_to_action_title, blockquote, .post_item.post_item_excerpt.post_format_link .post_featured p, .post_item.post_format_link .post_content p, .post_item.post_item_excerpt.post_format_status .post_featured p, .post_item.post_format_status .post_content p, .post_format_aside.post_item_single.post_item_excerpt .post_content p, .post_format_aside.post_item_excerpt .post_featured, .post_item_404 .page_subtitle, .woocommerce ul.products li.product .price { 
+		font-size: 21px; 
+		line-height: 28px; 
+	}
+	/*h5*/
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_author_name, .sc_blogger_descr.sc_item_descr, .ih-item.square .info .post_title a, .sc_form_descr.sc_item_descr, .sc_services_descr.sc_item_descr, .sc_team_descr.sc_item_descr, .sc_any_shortcode_descr.sc_item_descr { 
+		font-size: 17px; 
+		line-height: 26px; 
+	}
+	
+	/*h6*/
+	.sc_form .sc_form_address_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_price_block .sc_price_block_title, .sc_skills_counter .sc_skills_item .sc_skills_info, .sc_skills_bar .sc_skills_info .sc_skills_label, .sc_skills_bar.sc_skills_horizontal .sc_skills_total, .sc_socials.sc_socials_size_small .social_icons span, .sc_table table tr:first-child th, .sc_tabs .sc_tabs_titles li a, #buddypress div.item-list-tabs ul li a, #buddypress div.item-list-tabs ul li span, #buddypress span.activity, #buddypress span.activity, #buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header, #buddypress .field-visibility-settings, #buddypress .field-visibility-settings-notoggle, #buddypress .field-visibility-settings-toggle, #buddypress div.activity-comments div.acomment-meta, #buddypress table.notifications tr th, #tribe-bar-form label, .tribe-events-event-meta address.tribe-events-address, .tribe-events-list .tribe-events-venue-details, .woocommerce div.product form.cart .variations label, .woocommerce .product_meta span, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce .star-rating, .woocommerce-page .star-rating, .woocommerce.widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .quantity, .woocommerce-page.widget_shopping_cart .quantity, .woocommerce-page .widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .total .amount, .woocommerce.widget_shopping_cart .total .amount, .woocommerce .widget_price_filter .price_label, .woocommerce table.shop_table tr:first-child th, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot th, .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2, .woocommerce table.cart thead th, .woocommerce #content table.cart thead th, .woocommerce-page table.cart thead th, .woocommerce-page #content table.cart thead th, .photostack figcaption h2, .top_panel_image .breadcrumbs, .widget_area .post_item .post_info, .isotope_filters a, .copyright_outer_text, .widget_area .widget_calendar .weekday, .widget_area .widget_product_tag_cloud a, .widget_area .widget_tag_cloud a, #toc .toc_title, .woocommerce ul.products li.product h2 {
+		font-size: 12px;
+	}
+	
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_content,
+	.sc_price_block .sc_price_block_description{
+		font-size: 14px;
+	}
+	
+	/*button*/
+	input[type="submit"], input[type="button"], button, .sc_button {
+		font-size: 13px;
+	}
+	
+	/*list*/
+	.sc_list li {
+		line-height: 28px !important;
+	}
+	/*404*/
+	.post_item_404 .page_title {
+		font-size: 200px;
+	}
+	/*price block*/
+	.sc_price_block .sc_price_block_money {
+		font-size: 35px;
+	}
+	
+}
+
+
+
+
+/*
+Very common low res
+*/
+@media (max-width: 479px) {
+	body { font-size: 14px; line-height: 26px; } 
+	h1	 { font-size: 36px; line-height: 43px; } 
+	h2  	 { font-size: 33px; line-height: 40px; } 
+	h3 	 { font-size: 23px; line-height: 31px; } 
+	h4 	 { font-size: 21px; line-height: 28px; }
+	h5  	 { font-size: 16px; line-height: 25px; }
+	h6 	 { font-size: 12px }
+	
+	.post_info { font-size: 12px }
+	
+	h1.sc_title { font-size: 36px !important; line-height: 43px !important; }
+	h2.sc_title { font-size: 33px !important; line-height: 40px !important; }
+	h3.sc_title { font-size: 23px !important; line-height: 31px !important; }
+	
+	/*h3*/
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr, #buddypress div#item-header h2, .tribe-events-list .type-tribe_events h2, .woocommerce div.product .product_title, .woocommerce .checkout h3, .woocommerce-page .checkout h3, .woocommerce-account h2, .woocommerce-account h4 { 
+		font-size: 23px; 
+		line-height: 29px; 
+	}
+	.sc_call_to_action_style_1.sc_no_image .sc_call_to_action_descr{
+		line-height: 36px;
+	}
+	
+	/*h4*/
+	.sc_call_to_action_style_2  .sc_call_to_action_title, blockquote, .post_item.post_item_excerpt.post_format_link .post_featured p, .post_item.post_format_link .post_content p, .post_item.post_item_excerpt.post_format_status .post_featured p, .post_item.post_format_status .post_content p, .post_format_aside.post_item_single.post_item_excerpt .post_content p, .post_format_aside.post_item_excerpt .post_featured, .post_item_404 .page_subtitle, .woocommerce ul.products li.product .price { 
+		font-size: 21px; 
+		line-height: 28px; 
+	}
+	/*h5*/
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_author_name, .sc_blogger_descr.sc_item_descr, .ih-item.square .info .post_title a, .sc_form_descr.sc_item_descr, .sc_services_descr.sc_item_descr, .sc_team_descr.sc_item_descr, .sc_any_shortcode_descr.sc_item_descr { 
+		font-size: 16px; 
+		line-height: 26px; 
+	}
+	
+	/*h6*/
+	.sc_form .sc_form_address_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_countdown.sc_countdown_style_1 .sc_countdown_label, .sc_price_block .sc_price_block_title, .sc_skills_counter .sc_skills_item .sc_skills_info, .sc_skills_bar .sc_skills_info .sc_skills_label, .sc_skills_bar.sc_skills_horizontal .sc_skills_total, .sc_socials.sc_socials_size_small .social_icons span, .sc_table table tr:first-child th, .sc_tabs .sc_tabs_titles li a, #buddypress div.item-list-tabs ul li a, #buddypress div.item-list-tabs ul li span, #buddypress span.activity, #buddypress span.activity, #buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header, #buddypress .field-visibility-settings, #buddypress .field-visibility-settings-notoggle, #buddypress .field-visibility-settings-toggle, #buddypress div.activity-comments div.acomment-meta, #buddypress table.notifications tr th, #tribe-bar-form label, .tribe-events-event-meta address.tribe-events-address, .tribe-events-list .tribe-events-venue-details, .woocommerce div.product form.cart .variations label, .woocommerce .product_meta span, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce .star-rating, .woocommerce-page .star-rating, .woocommerce.widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .quantity, .woocommerce-page.widget_shopping_cart .quantity, .woocommerce-page .widget_shopping_cart .quantity, .woocommerce .widget_shopping_cart .total .amount, .woocommerce.widget_shopping_cart .total .amount, .woocommerce .widget_price_filter .price_label, .woocommerce table.shop_table tr:first-child th, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot th, .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2, .woocommerce table.cart thead th, .woocommerce #content table.cart thead th, .woocommerce-page table.cart thead th, .woocommerce-page #content table.cart thead th, .photostack figcaption h2, .top_panel_image .breadcrumbs, .widget_area .post_item .post_info, .isotope_filters a, .copyright_outer_text, .widget_area .widget_calendar .weekday, .widget_area .widget_product_tag_cloud a, .widget_area .widget_tag_cloud a, #toc .toc_title, .woocommerce ul.products li.product h2 {
+		font-size: 12px;
+	}
+	
+	.sc_testimonials_style_testimonials-4 .sc_testimonial_content,
+	.sc_price_block .sc_price_block_description{
+		font-size: 14px;
+	}
+	
+	/*button*/
+	input[type="submit"], input[type="button"], button, .sc_button {
+		font-size: 12.5px;
+		padding: 14px 25px;
+	}
+	
+	/*list*/
+	.sc_list li {
+		line-height: 28px !important;
+	}
+	/*404*/
+	.post_item_404 .page_title {
+		font-size: 150px;
+	}
+	/*price block*/
+	.sc_price_block .sc_price_block_money {
+		font-size: 35px;
+	}
+	
+	
+}
